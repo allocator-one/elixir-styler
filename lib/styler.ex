@@ -25,7 +25,8 @@ defmodule Styler do
     Styler.Style.Defs,
     Styler.Style.Blocks,
     Styler.Style.Deprecations,
-    Styler.Style.Configs
+    # Allocator One customization to not reorder config.
+    # Styler.Style.Configs
   ]
 
   @doc false
